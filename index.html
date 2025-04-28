@@ -3,44 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>פרויקט דוופס - נעמי זמצובסקי</title>
+  <title>נעמי זמצובסקי - פרויקט דוופס</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f2f5;
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       height: 100vh;
-      color: #333;
-    }
-    h1 {
-      color: #0d47a1;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      margin: 5px 0;
+      background: url('18a5d0cd-fee1-4714-bc39-4d44c983345a.png') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .card {
-      background: white;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(145deg, #ffffff, #e0e0e0);
+      padding: 40px;
+      border-radius: 20px;
       text-align: center;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       max-width: 400px;
+      width: 90%;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #4fc3f7;
+    }
+    h1 {
+      margin: 10px 0 5px 0;
+      font-size: 26px;
+      color: #0d47a1;
+    }
+    p {
+      margin: 5px 0;
+      font-size: 18px;
+      color: #333;
+    }
+    .year {
+      margin-top: 15px;
+      font-size: 16px;
+      color: #555;
     }
   </style>
 </head>
 <body>
 
 <div class="card">
+  <img src="https://i.ibb.co/S7t5W8g/default-profile.png" alt="Profile Image" class="profile-img">
   <h1>נעמי זמצובסקי</h1>
   <p>פרויקט דוופס</p>
-  <p>2025</p>
+  <div class="year">2025</div>
 </div>
 
 </body>
